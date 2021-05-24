@@ -14,15 +14,7 @@ Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template 
 
 ## Quickstart
 ```sh
-# Install pipx if pipenv and cookiecutter are not installed
-python3 -m pip install pipx
-python3 -m pipx ensurepath
-
-# Install pipenv using pipx
-pipx install pipenv
-
-# Use cookiecutter to create project from this template
-pipx run cookiecutter gh:sourcery-ai/python-best-practices-cookiecutter
+cookiecutter gh:ceedee666/python-best-practices-cookiecutter
 
 # Enter project directory
 cd <repo_name>
